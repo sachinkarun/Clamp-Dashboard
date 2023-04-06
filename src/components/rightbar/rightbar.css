@@ -1,0 +1,188 @@
+.right-container{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-container span{
+    display: block;
+}
+
+.dear-client{
+    width: 28rem;
+    height: 8rem;
+    background-color: #2a2a2a;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.dear-client-title{
+    font-size:1.3rem;
+    font-weight:bold;
+    color:#ffffff;
+    margin:5px 10px;
+}
+.join-us{
+    font-weight:500;
+    color:#cecece;
+    margin:5px 10px;
+}
+.line-progress-bar{
+    align-self:flex-start;
+    margin:15px;
+    color:#ffffff;
+}
+.leaf{
+    width: 60px;
+    height: 80px;
+    margin: 10px 30px;
+}
+
+.transaction-detail{
+    width: 28rem;
+    height: 17rem;
+    background-color: #2a2a2a;
+    border-radius: 35px;
+    margin: 10px 0;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.transaction-detail-title{
+    font-size:1.2rem;
+    font-weight:500;
+    color:#ffffff;
+    margin-top:20px;
+}
+.hi-hira{
+    font-weight:400;
+    color:#cecece;
+    margin-top:10px;
+}
+.clients{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+.arrow{
+    color: #ffffff;
+    padding: 15px;
+    background-color: #050505;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.client{
+    width: 2.8rem;
+    height: 2.8rem;
+    background-color: #050505;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.profile{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 27px 0;
+}
+.send{
+    background-color: #ff535f;
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    right: 2rem;
+    bottom: 1.8rem;
+    padding: 7px 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.project-progress{
+    width: 28rem;
+    height: 12rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.project, .progress{
+    border-radius: 35px;
+    background-color: #2a2a2a;
+    width: 48%;
+    height: 100%;
+    position: relative;
+}
+.project-progress-title{
+    color:#ffffff;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.project-detail-title{
+    font-size:1.1rem;
+    font-weight:500;
+    color:#ffffff;
+    margin-top:15px;
+    margin-left:20px;
+}
+.project-author{
+    font-size:1.2rem;
+    font-weight:bold;
+    color:#f15361;
+    margin:5px 20px;
+}
+.options{
+    position: absolute;
+    color: #ffffff;
+    right: 20px;
+    top: 20px;
+}
+.circle-progress{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-progress-num{
+    position: absolute;
+    background-color: #ff535f;
+    padding: 1.3rem .9rem;
+    border-radius: 50%;
+    color: #ffffff;
+    font-weight: bold;
+}
+.percent{
+    color:#ffffff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 5px 70%;
+}
+
+@media screen and (max-width: 850px){
+    .dear-client, .transaction-detail, .project-progress{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 480px){
+    .right-container{
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 500px){
+    .arrow{
+        padding: 10px;
+    }
+    .client{
+        width: 2rem;
+        height: 2rem;
+    }
+    .profile{
+        width: 3rem;
+        height: 3rem;
+    }
+}
